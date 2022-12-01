@@ -9,8 +9,9 @@ function createUser({ name: string, isPaid: boolean }) {}
 
 let newUser = { name: "Ian", isPaid: false, email: "i@i.com" };
 
-createUser();
+createUser(newUser);
 //this is throwing an error because email is not available
+//moving the arguments as variables can correct this
 
 function createCourse(): { name: string; price: number } {
   // this syntax is saying that you will return an object type
