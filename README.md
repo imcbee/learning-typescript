@@ -21,3 +21,7 @@
 ```typescript
 let variableName: type = value;
 ```
+
+## Type Alias
+
+## Arrays
